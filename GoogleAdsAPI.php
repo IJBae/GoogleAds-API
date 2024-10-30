@@ -66,9 +66,9 @@ use App\Libraries\slack_api\SlackChat;
 
 class ZenithGG
 {
-    private $manageCustomerId = "4013365335"; //4013365335
+    private $manageCustomerId = "";
     private $db;
-    private static $rootCustomerClients = ['5980790227', '4324269025', '2409346509', '4946840644', '4943963823', '7933651274', '5045171745', '4486211678', '8135785284', '2667057443', '4560872762'];
+    private static $rootCustomerClients = [];
     private static $oAuth2Credential, $googleAdsClient;
     private $slack, $slackChannel = '광고API';
 
